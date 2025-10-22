@@ -3,13 +3,13 @@
 0. Init. Project
 
 ```sh
-  $ npm init -y
+# npm init -y
 ```
 
 1. Install Packages
 
 ```sh
-  $ npm i -D webpack webpack-cli webpack-dev-server css-loader style-loader sass-loader sass
+# npm i -D webpack webpack-cli webpack-dev-server css-loader style-loader sass-loader sass
 ```
 
 2. NPM Scripting
@@ -42,11 +42,11 @@ module: {
 4. Build(Bundling)
 
 ```sh
-  $ npm run build
+# npm run build
 ```
 
 5. Test
 
 ```sh
-  $ npm start
+# npm start
 ```

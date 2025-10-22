@@ -3,22 +3,22 @@
 0. Init. Project
 
 ```sh
-   $ npm init -y
+ # npm init -y
 ```
 
 1. Install Packages
 
 ```sh
-   $ npm i -D webpack webpack-cli webpack-dev-server css-loader style-loader
+ # npm i -D webpack webpack-cli webpack-dev-server css-loader style-loader
 ```
 
 2. NPM Scripting
 
 ```json
-  "scripts": {
-    "start": "npx webpack serve --progress",
-    "build": "npx webpack"
-  }
+"scripts": {
+  "start": "npx webpack serve --progress",
+  "build": "npx webpack"
+}
 ```
 
 3. Webpack Configuration
@@ -42,11 +42,11 @@ module: {
 4. Build(Bundling)
 
 ```sh
-  $ npm run build
+# npm run build
 ```
 
 5. Test
 
 ```sh
-  $ npm start
+# npm start
 ```
