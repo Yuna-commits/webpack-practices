@@ -30,9 +30,14 @@
 
 ## 실습 예제
 
-ex01: Bundling I: JS Module
-ex02: Bundling Environment Configuration : webpack.config.js
-ex03: Webpack Development Server
-ex04: Bundling II: CSS Module
-ex05: Bundling III: SASS/SCSS Module
-ex06: Bundling IV: Image Module
+-   ex01: Bundling I: JS Module
+
+-   ex02: Bundling Environment Configuration : webpack.config.js
+
+-   ex03: Webpack Development Server
+
+-   ex04: Bundling II: CSS Module
+
+-   ex05: Bundling III: SASS/SCSS Module
+
+-   ex06: Bundling IV: Image Module
