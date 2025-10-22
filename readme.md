@@ -17,12 +17,14 @@
 5. js 모듈뿐만 아니라 다양한 asset(images, css, sass/scss, font)들도 모듈로 취급한다.
 
 6. 설치 패키지
-   webpack : Core
-   webpack-cli : Core 기능을 실행하기 위한 CLI 도구
-   webpack-dev-server : 테스트를 위해 webpack에서 제공하는 개발서버
-   loaders : css-loader, style-loader, sass-loader(include node-sass), babel-loader, etc ...
+
+    - webpack : Core
+    - webpack-cli : Core 기능을 실행하기 위한 CLI 도구
+    - webpack-dev-server : 테스트를 위해 webpack에서 제공하는 개발서버
+    - loaders : css-loader, style-loader, sass-loader(include node-sass), babel-loader, etc ...
 
 7. webpack 설정(webpack.config.js)
+
     1. entry 설정
     2. 최종 결과물인 번들링 파일의 이름 및 위치
     3. 다양한 로더 설정
@@ -31,13 +33,8 @@
 ## 실습 예제
 
 -   ex01: Bundling I: JS Module
-
 -   ex02: Bundling Environment Configuration : webpack.config.js
-
 -   ex03: Webpack Development Server
-
 -   ex04: Bundling II: CSS Module
-
 -   ex05: Bundling III: SASS/SCSS Module
-
 -   ex06: Bundling IV: Image Module
