@@ -37,10 +37,14 @@ output: {
 
 ```js
 module: {
-  rules:[{
-    test: /\.(png|gif|jp?eg|svg|ico|tif?f|bmp)/i,
-    type: 'asset/resource'
-}]
+    rules: [
+        {...},
+        {
+            test: /\.(png|gif|jp?eg|svg|ico|tif?f|bmp)/i,
+            type: "asset/resource",
+        },
+    ];
+}
 ```
 
 4. Build(Bundling)
